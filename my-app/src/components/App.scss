@@ -1,4 +1,99 @@
+
 .App{
-    background-color:pink
+   
+    
+    nav {            
+            display: flex;
+            align-items: center;  
+            height: 82px;            
+            padding:0 20px;
+            
+
+            .logo-img {       
+                width:151px;
+                height: 32px
+            }
+
+            .nav-content{
+                flex: 1 1 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .nav-menu{
+                display: flex;
+                align-items: center;
+                padding: 0px;
+                margin: 0px;
+
+                ul{
+                    display: flex;
+                    font-weight: bold;
+                    font-size: 18px;
+                    font-family: 'Inter', sans-serif;
+                    padding:0px;
+                                        
+                    
+                }
+            }
+
+            
+        }    
+    
+    .hero-01 {
+        display: flex;
+        padding: 64px 0;
+
+        .hero-01-content{
+            padding:0;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-01-text-content{
+            flex-basis: 300px;
+            flex-grow: 1;
+
+            h1{
+                line-height: 1.25;
+                color: #2d313a;
+            }
+            p{
+                margin: 0 0 1rem;
+            }
+
+            .hero-01-text-content-child{
+                margin: 0 0 2rem;
+                
+            }
+
+            .hero-01-text-btn{
+                padding-top: 40px;
+            }
+        }
+
+        .hero-01-img{
+            align-items: center;
+        }
+    }
+
+    .recommended-wrapper {
+        padding: 10px 20px;
+            h3{
+                text-align: center;
+
+                span{
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }       
+    }
+
 
 }
+
+

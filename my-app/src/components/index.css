@@ -1,0 +1,43 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: #2d313a;
+  line-height: 1.4;
+  word-break: break-word;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px h1;
+  font-size-font-family: 'Rubik', sans-serif;
+  font-size-font-size: 40px;
+  font-size-font-style: normal;
+  font-size-font-weight: 700;
+  font-size-text-decoration: none;
+  font-size-margin: 0 0 1.4rem;
+}
+
+body p {
+  font-size: 16px;
+  line-height: 1.375rem;
+}
+
+body a {
+  background-color: #e35540;
+  border: 1px solid #e35540;
+  border-radius: 3px;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+body a span {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.1;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: .03rem;
+}
+/*# sourceMappingURL=index.css.map */

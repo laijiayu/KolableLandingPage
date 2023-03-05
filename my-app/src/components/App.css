@@ -1,4 +1,116 @@
-.App {
-  background-color: pink;
+.App nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 82px;
+  padding: 0 20px;
+}
+
+.App nav .logo-img {
+  width: 151px;
+  height: 32px;
+}
+
+.App nav .nav-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App nav .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.App nav .nav-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  padding: 0px;
+}
+
+.App .hero-01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 64px 0;
+}
+
+.App .hero-01 .hero-01-content {
+  padding: 0;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.App .hero-01 .hero-01-text-content {
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.App .hero-01 .hero-01-text-content h1 {
+  line-height: 1.25;
+  color: #2d313a;
+}
+
+.App .hero-01 .hero-01-text-content p {
+  margin: 0 0 1rem;
+}
+
+.App .hero-01 .hero-01-text-content .hero-01-text-content-child {
+  margin: 0 0 2rem;
+}
+
+.App .hero-01 .hero-01-text-content .hero-01-text-btn {
+  padding-top: 40px;
+}
+
+.App .hero-01 .hero-01-img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .recommended-wrapper {
+  padding: 10px 20px;
+}
+
+.App .recommended-wrapper h3 {
+  text-align: center;
+}
+
+.App .recommended-wrapper h3 span {
+  font-size: 24px;
+  font-weight: 700;
 }
 /*# sourceMappingURL=App.css.map */
