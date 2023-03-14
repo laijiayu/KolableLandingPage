@@ -64,6 +64,43 @@ function App() {
             <span>Widely recommended by</span>
           </h3>
         </div>
+        <div className="recommended-img-wrapper">
+          <div className="img-div">
+            <img
+              className="img"
+              src="https://make.kolable.com/hubfs/%E4%B8%8B%E8%BC%89-(1).jpg"
+              alt=""
+            />
+          </div>
+          <div className="img-div">
+            <img
+              className="img"
+              src="https://make.kolable.com/hubfs/unnamed.jpg"
+              alt=""
+            />
+          </div>
+          <div className="img-div">
+            <img
+              className="img"
+              src="https://make.kolable.com/hubfs/007_%E5%B7%A6%E5%8F%B3%E4%B8%AD%E5%B0%8F.jpg"
+              alt=""
+            />
+          </div>
+          <div className="img-div">
+            <img
+              className="img"
+              src="https://make.kolable.com/hubfs/logo_oodesign.jpg"
+              alt=""
+            />
+          </div>
+          <div className="img-div">
+            <img
+              className="img"
+              src="https://make.kolable.com/hubfs/isznlogo.jpg"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
   )

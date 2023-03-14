@@ -113,4 +113,32 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+.App .recommended-img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px 40px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .recommended-img-wrapper .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 190.9px;
+  height: 81.0px;
+  padding: 16px 24px;
+}
+
+.App .recommended-img-wrapper .img-div img {
+  width: 100%;
+}
 /*# sourceMappingURL=App.css.map */

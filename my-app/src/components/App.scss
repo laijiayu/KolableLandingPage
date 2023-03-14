@@ -90,8 +90,32 @@
                     font-size: 24px;
                     font-weight: 700;
                 }
-            }       
+            }               
     }
+
+    .recommended-img-wrapper{
+        display: flex;
+        padding: 10px 20px 40px;
+        justify-content: space-around;
+        align-items: center;
+
+        .img-div{
+            display: flex;
+            align-items: center;
+            width: 190.9px;
+            height: 81.0px;
+            padding: 16px 24px;
+
+            img{
+               width: 100%;
+               
+            
+            }
+        }
+    }
+
+    
+
 
 
 }
